@@ -1,2 +1,9 @@
-# ZabbixMonitor_GPU
-Nvidia 显卡GPU使用情况监控
+## Nvidia 显卡GPU使用情况监控
+监控内容包括:
+* GPU使用率
+* 显存使用率
+* 编码器使用率
+* 解码器使用率
+
+** 确保Nvidia命令行工具nvidia-smi已安装并能正常使用  
+** 确保jq已安装
